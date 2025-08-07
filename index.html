@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Scalping AI frontend</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>📈 AI Scalping Elemzés</h1>
+
+  <label for="symbol">Instrumentum (pl. BTCUSDT):</label>
+  <input id="symbol" type="text" placeholder="BTCUSDT" />
+
+  <label for="interval">Időintervallum (pl. 5m):</label>
+  <input id="interval" type="text" placeholder="5m" />
+
+  <button onclick="analyze()">Elemzés indítása</button>
+
+  <pre id="result">⏳ Várakozás...</pre>
+
+  <script src="script.js"></script>
+</body>
+</html>
